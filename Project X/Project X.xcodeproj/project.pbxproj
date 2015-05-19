@@ -14,6 +14,7 @@
 		AE4E6E241B0B89A0001B8AF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4E6E231B0B89A0001B8AF3 /* Images.xcassets */; };
 		AE4E6E271B0B89A0001B8AF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE4E6E251B0B89A0001B8AF3 /* LaunchScreen.xib */; };
 		AE4E6E331B0B89A0001B8AF3 /* Project_XTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4E6E321B0B89A0001B8AF3 /* Project_XTests.m */; };
+		AE4E6E3E1B0B8BB6001B8AF3 /* UIViewPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4E6E3D1B0B8BB6001B8AF3 /* UIViewPlus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AE4E6E2C1B0B89A0001B8AF3 /* Project XTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project XTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4E6E311B0B89A0001B8AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4E6E321B0B89A0001B8AF3 /* Project_XTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_XTests.m; sourceTree = "<group>"; };
+		AE4E6E3C1B0B8BB6001B8AF3 /* UIViewPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewPlus.h; sourceTree = "<group>"; };
+		AE4E6E3D1B0B8BB6001B8AF3 /* UIViewPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewPlus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AE4E6E1B1B0B89A0001B8AF3 /* AppDelegate.m */,
 				AE4E6E1D1B0B89A0001B8AF3 /* ViewController.h */,
 				AE4E6E1E1B0B89A0001B8AF3 /* ViewController.m */,
+				AE4E6E3C1B0B8BB6001B8AF3 /* UIViewPlus.h */,
+				AE4E6E3D1B0B8BB6001B8AF3 /* UIViewPlus.m */,
 				AE4E6E201B0B89A0001B8AF3 /* Main.storyboard */,
 				AE4E6E231B0B89A0001B8AF3 /* Images.xcassets */,
 				AE4E6E251B0B89A0001B8AF3 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4E6E3E1B0B8BB6001B8AF3 /* UIViewPlus.m in Sources */,
 				AE4E6E1F1B0B89A0001B8AF3 /* ViewController.m in Sources */,
 				AE4E6E1C1B0B89A0001B8AF3 /* AppDelegate.m in Sources */,
 				AE4E6E191B0B89A0001B8AF3 /* main.m in Sources */,
